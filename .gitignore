@@ -1,14 +1,14 @@
-*.py[cod]
+#.py[cod]
 
 test.db
 test.txt
 sina.html
 
-# C extensions
-*.so
+ #C extensions
+!.so
 
 # Packages
-*.egg
+!.egg
 *.egg-info
 dist
 build
@@ -52,3 +52,4 @@ MANIFEST
 .mr.developer.cfg
 .project
 .pydevproject
+ 
